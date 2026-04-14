@@ -1,0 +1,34 @@
+/* ========================================
+   RESPONSIVE
+======================================== */
+@media (max-width: 62rem) {
+  #hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-left {
+    min-height: calc(100vh - 5.5rem);
+  }
+
+  .hero-right {
+    display: none;
+  }
+}
+
+@media (max-width: 40rem) {
+
+  .hero-title br {
+    display: block;
+  }
+
+  nav {
+    height: 5.5rem;
+    min-height: 5.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #hero {
+    padding-top: 5.5rem;
+  }
+}

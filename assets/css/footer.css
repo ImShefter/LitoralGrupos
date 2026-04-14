@@ -1,0 +1,17 @@
+/* ========================================
+   FOOTER
+======================================== */
+footer {
+  background: var(--nav);
+  padding: 1.5rem clamp(1rem, 5vw, 6rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-copy {
+  color: var(--white);
+  font-size: .9rem;
+}

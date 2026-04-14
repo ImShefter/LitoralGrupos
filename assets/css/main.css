@@ -1,0 +1,45 @@
+/* ========================================
+   MAIN CSS
+======================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #ffffff;
+  color: #272727;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+/* VARIABLES */
+:root {
+  --blue: #2e86e8;
+  --gold: #f0a500;
+  --white: #ffffff;
+  --black: #272727;
+  --dark: #1a1a1a;
+  --muted: #8a96a8;
+  --nav: rgba(0, 30, 80, 1);
+  --hero: rgba(20, 20, 20, 0.82);
+
+  --container: 80rem;
+  --radius: 1rem;
+}
+
+/* UTILIDAD */
+section,
+nav,
+footer {
+  width: 100%;
+}

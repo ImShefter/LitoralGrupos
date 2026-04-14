@@ -1,0 +1,91 @@
+/* ========================================
+   HERO
+======================================== */
+#hero {
+  min-height: 100vh;
+  padding-top: 5.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background:
+    linear-gradient(to right, rgba(0,0,0,.45), rgba(0,0,0,.05)),
+    url("../image/bounous-ind.png") center/cover no-repeat;
+}
+
+.hero-left {
+  background: var(--hero);
+  padding:
+    clamp(2rem, 6vw, 6rem)
+    clamp(1.5rem, 5vw, 6rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-eyebrow {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: clamp(.75rem, 1vw, .95rem);
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  color: var(--white);
+  line-height: .98;
+  font-size: clamp(2.6rem, 7vw, 6rem);
+  margin-bottom: 2rem;
+}
+
+.hero-title em {
+  color: var(--blue);
+  font-style: italic;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  text-decoration: none;
+  background: var(--blue);
+  color: var(--white);
+  padding: 1rem 1.8rem;
+  border-radius: .75rem;
+  font-weight: 600;
+  font-size: clamp(.95rem, 1vw, 1rem);
+  transition: .25s ease;
+  margin-bottom: 2.5rem;
+}
+
+.hero-cta:hover {
+  background: var(--gold);
+  color: var(--black);
+}
+
+.hero-brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  align-items: center;
+}
+
+.brand-name {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .8rem;
+}
+
+.brand-sep {
+  width: .25rem;
+  height: .25rem;
+  border-radius: 50%;
+  background: var(--muted);
+  opacity: .6;
+}
+
+.hero-right {
+  min-height: 100%;
+}
